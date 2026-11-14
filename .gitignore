@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+*.log
+study-2-exact-posterior/results/*.npz
