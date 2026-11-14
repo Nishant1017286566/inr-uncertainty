@@ -21,6 +21,13 @@ They do not.
 The practical consequence, in one line: **report the total, and report `train_rmse/σ`
 beside any aleatoric number — or do not report one.**
 
+## Paper
+
+A 9-page write-up of all three studies is in [`paper/`](paper), with the compiled
+[preprint PDF](paper/residual-law-preprint.pdf), the LaTeX source, and the fields to paste
+into an arXiv submission. Every statistic in it is reproduced by the scripts in this
+repository.
+
 ---
 
 ## The three studies, in the order they should be read

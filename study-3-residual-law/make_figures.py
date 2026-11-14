@@ -59,10 +59,10 @@ def fig1():
         ax.set_xlabel(label)
         ax.set_title(label.split("(")[0].strip())
     axes[0].set_ylabel("variance")
-    axes[0].annotate("A, the reported\n'aleatoric' variance", (2, 6e-5),
-                     color=ORANGE, fontsize=8, fontweight="bold")
-    axes[0].annotate("true noise variance", (2, 2.4e-4), color=INK, fontsize=8,
-                     fontweight="bold")
+    axes[0].annotate("A, the reported\n'aleatoric' variance", (8, 1.15e-3),
+                     color=ORANGE, fontsize=8, fontweight="bold", ha="center")
+    axes[0].annotate("true noise variance", (1.05, 2.2e-5), color=INK, fontsize=8,
+                     fontweight="bold", ha="left")
     axes[2].annotate("only here does the\ntruth move at all", (3, 3e-6), color=INK,
                      fontsize=7.5)
     fig.suptitle("The quantity A is meant to estimate is flat in two of three sweeps. "
