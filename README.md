@@ -23,10 +23,10 @@ beside any aleatoric number — or do not report one.**
 
 ## Paper
 
-A 9-page write-up of all three studies is in [`paper/`](paper), with the compiled
-[preprint PDF](paper/residual-law-preprint.pdf), the LaTeX source, and the fields to paste
-into an arXiv submission. Every statistic in it is reproduced by the scripts in this
-repository.
+A 9-page write-up of all three studies is in [`paper/`](paper): the compiled
+[preprint PDF](paper/residual-law-preprint.pdf), LaTeX source for both the arXiv and the
+anonymised TMLR builds, and a [submission guide](paper/SUBMISSION_GUIDE.md). Every statistic
+in it is reproduced by the scripts in this repository.
 
 ---
 
