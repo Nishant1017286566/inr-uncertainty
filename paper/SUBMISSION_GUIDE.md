@@ -40,13 +40,27 @@ three modes — switch the package option at the top of `main.tex`:
 | `\usepackage[preprint]{tmlr}` | de-anonymised preprint |
 | `\usepackage[accepted]{tmlr}` | camera-ready after acceptance |
 
-### Before you upload — one thing to do
+### The anonymous mirror is live
 
-The Reproducibility section points at `https://anonymous.4open.science/r/ANON`, a
-placeholder. Create the real anonymous mirror at <https://anonymous.4open.science>, point it
-at `Nishant1017286566/inr-uncertainty`, and replace `ANON` with the id it gives you. It takes
-about two minutes and it matters: your paper's strongest claim is that everything is
-checkable, and a reviewer who cannot run the code has to take the numbers on trust.
+<https://anonymous.4open.science/r/uncertainty-decomposition-review> — already created and
+linked from the paper's Reproducibility section. It mirrors the `anon-review` branch, which
+exists for exactly this purpose:
+
+- **`paper/` is not on that branch.** It holds `residual-law-preprint.pdf`, which carries
+  your name, email and the GitHub URL on page one — and anonymisation mirrors serve PDFs
+  unchanged, because redaction only touches text files. Removing the directory is more robust
+  than relying on a toggle. The PDF toggle is also off, as a second line of defence.
+- **README, study README and LICENSE are de-identified on that branch**, so even the raw
+  files carry no author.
+- **The mirror is named `uncertainty-decomposition-review`, not `inr-uncertainty`** — the
+  auto-generated id matched your public repository name, which a reviewer could have searched.
+
+Verified after creation: everything under `paper/` returns 404, the code, grids and
+pre-registrations return 200, and eight served files grep clean for every identity string.
+
+**Keep `anon-review` in sync** if you change the code during review: `git checkout
+anon-review && git merge main` then re-remove `paper/`. The mirror has auto-update switched
+off, so it stays as the snapshot taken on creation unless you refresh it from the dashboard.
 
 Do **not** link the public GitHub repo in the submission. Non-anonymous submissions are
 rejected without review.
