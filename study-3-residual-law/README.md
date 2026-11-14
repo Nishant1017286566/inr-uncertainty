@@ -320,6 +320,6 @@ data and metrics from `inr_core.py` unmodified, so they drop into its grid direc
 
 ---
 
-*Nishant Dave, 2026. Synthetic data, CPU and one laptop GPU. A pre-registered result about
+*Author withheld for anonymous review, 2026. Synthetic data, CPU and one laptop GPU. A pre-registered result about
 what two widely reported numbers actually measure, on a controlled test bed — not a general
 claim about uncertainty quantification.*

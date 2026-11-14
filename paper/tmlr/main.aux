@@ -1,0 +1,86 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{kendall2017,hullermeier2021}
+\citation{mildenhall2020,sitzmann2020,tancik2020}
+\citation{nix1994,kendall2017}
+\citation{lakshminarayanan2017}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{hullermeier2021}
+\citation{kendall2017}
+\citation{depeweg2018}
+\citation{lakshminarayanan2017}
+\citation{nix1994}
+\citation{valdenegro2022}
+\citation{mucsanyi2024}
+\citation{bengs2022}
+\citation{seitzer2022}
+\citation{vovk2005,angelopoulos2021}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Setup}{2}{section.3}\protected@file@percent }
+\newlabel{sec:setup}{{3}{2}{Setup}{section.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{The world.}{2}{section*.1}\protected@file@percent }
+\citation{tancik2020,rahimi2007}
+\citation{kendall2017,valdenegro2022}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The quantity $A$ is meant to estimate (dashed) is constant by construction in two of the three sweeps. $A$ (solid) is not. Log scales on both axes.}}{3}{figure.caption.6}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:anomaly}{{1}{3}{The quantity $A$ is meant to estimate (dashed) is constant by construction in two of the three sweeps. $A$ (solid) is not. Log scales on both axes}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{The model.}{3}{section*.2}\protected@file@percent }
+\newlabel{eq:nll}{{1}{3}{The model}{equation.3.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{The two quantities.}{3}{section*.3}\protected@file@percent }
+\newlabel{eq:decomp}{{2}{3}{The two quantities}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{The grid.}{3}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Pre-registration.}{3}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}The aleatoric estimate does not track the noise}{3}{section.4}\protected@file@percent }
+\newlabel{sec:anomaly}{{4}{3}{The aleatoric estimate does not track the noise}{section.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Across 97 settings, the quantity $A$ is defined to estimate explains almost none of its variation, and the training residual explains nearly all of it. Over the 48 settings where $\sigma ^2$ is identical by construction, $A$ still ranges $4.75\times 10^{-5}$ to $2.33\times 10^{-2}$, a factor of $490$.}}{4}{table.caption.7}\protected@file@percent }
+\newlabel{tab:anomaly}{{1}{4}{Across 97 settings, the quantity $A$ is defined to estimate explains almost none of its variation, and the training residual explains nearly all of it. Over the 48 settings where $\sigma ^2$ is identical by construction, $A$ still ranges $4.75\times 10^{-5}$ to $2.33\times 10^{-2}$, a factor of $490$}{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces All 97 grid settings (blue; marker shape indicates which sweep), plus the intervention runs of \S  \ref {sec:causal} (orange, green), collapse onto a single power law. The dashed line is the exponent $2$ predicted by the NLL optimum.}}{4}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:collapse}{{2}{4}{All 97 grid settings (blue; marker shape indicates which sweep), plus the intervention runs of \S \ref {sec:causal} (orange, green), collapse onto a single power law. The dashed line is the exponent $2$ predicted by the NLL optimum}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}One law}{4}{section.5}\protected@file@percent }
+\newlabel{sec:law}{{5}{4}{One law}{section.5}{}}
+\newlabel{eq:law}{{3}{4}{One law}{equation.5.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces One free parameter collapses $679\times $ of variation in $A$ onto a single line, in every rerun. Theory predicts exponent $2$. Intervals are percentile bootstrap over settings.}}{4}{table.caption.9}\protected@file@percent }
+\newlabel{tab:law}{{2}{4}{One free parameter collapses $679\times $ of variation in $A$ onto a single line, in every rerun. Theory predicts exponent $2$. Intervals are percentile bootstrap over settings}{table.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces A model fitted below the noise floor has absorbed noise into its weights and under-reports it; one that has not reached the floor reports its own misfit as a property of the world. $\rho (\hat  s, |e|)$ is the rank correlation between predicted standard deviation and true error (\S  \ref {sec:cost}).}}{5}{table.caption.10}\protected@file@percent }
+\newlabel{tab:regimes}{{3}{5}{A model fitted below the noise floor has absorbed noise into its weights and under-reports it; one that has not reached the floor reports its own misfit as a property of the world. $\rho (\hat s, |e|)$ is the rank correlation between predicted standard deviation and true error (\S \ref {sec:cost})}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Causal test}{5}{section.6}\protected@file@percent }
+\newlabel{sec:causal}{{6}{5}{Causal test}{section.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{I1: task difficulty.}{5}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{I2: optimisation budget.}{5}{section*.12}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Left: with every image identical ($D=0$) the fit lands on the noise floor and $A$ is nearly correct; making the images differ raises the reported ``noise'' although the images' noise is unchanged. Right: $\sigma ^2$ is pinned at $1.831\times 10^{-4}$ while training longer cuts $A$ by $12.6\times $. Means over three seeds.}}{5}{table.caption.13}\protected@file@percent }
+\newlabel{tab:interventions}{{4}{5}{Left: with every image identical ($D=0$) the fit lands on the noise floor and $A$ is nearly correct; making the images differ raises the reported ``noise'' although the images' noise is unchanged. Right: $\sigma ^2$ is pinned at $1.831\times 10^{-4}$ while training longer cuts $A$ by $12.6\times $. Means over three seeds}{table.caption.13}{}}
+\@writefile{toc}{\contentsline {paragraph}{Pre-registered outcomes.}{5}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{H5, the falsifier, failed.}{5}{section*.15}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Left: only an ensemble of exact posterior samples converges at the theoretical rate. Right: each construction converges to a different multiple of the true epistemic variance.}}{6}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:exact}{{3}{6}{Left: only an ensemble of exact posterior samples converges at the theoretical rate. Right: each construction converges to a different multiple of the true epistemic variance}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}The epistemic term is not a refuge}{6}{section.7}\protected@file@percent }
+\newlabel{sec:epistemic}{{7}{6}{The epistemic term is not a refuge}{section.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces An ensemble's spread estimates the variance of whatever distinguishes its members. That equals the posterior's epistemic variance only when the members are posterior samples.}}{6}{table.caption.17}\protected@file@percent }
+\newlabel{tab:exact}{{5}{6}{An ensemble's spread estimates the variance of whatever distinguishes its members. That equals the posterior's epistemic variance only when the members are posterior samples}{table.caption.17}{}}
+\citation{vovk2005,angelopoulos2021}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Left: training longer reduces the reported ``noise in the data'' by $12.6\times $ while the true noise (dashed) is fixed and the epistemic term is flat. Right: the rank correlation between predicted uncertainty and true error collapses as noise grows.}}{7}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:cost}{{4}{7}{Left: training longer reduces the reported ``noise in the data'' by $12.6\times $ while the true noise (dashed) is fixed and the epistemic term is flat. Right: the rank correlation between predicted uncertainty and true error collapses as noise grows}{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}The sum survives better than its parts}{7}{section.8}\protected@file@percent }
+\newlabel{sec:total}{{8}{7}{The sum survives better than its parts}{section.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}What it costs}{7}{section.9}\protected@file@percent }
+\newlabel{sec:cost}{{9}{7}{What it costs}{section.9}{}}
+\bibcite{angelopoulos2021}{{1}{2021}{{Angelopoulos and Bates}}{{}}}
+\bibcite{bengs2022}{{2}{2022}{{Bengs et al.}}{{}}}
+\bibcite{depeweg2018}{{3}{2018}{{Depeweg et al.}}{{}}}
+\bibcite{hullermeier2021}{{4}{2021}{{H\"ullermeier and Waegeman}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Recommendations}{8}{section.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11}Limitations}{8}{section.11}\protected@file@percent }
+\bibcite{kendall2017}{{5}{2017}{{Kendall and Gal}}{{}}}
+\bibcite{lakshminarayanan2017}{{6}{2017}{{Lakshminarayanan et al.}}{{}}}
+\bibcite{mildenhall2020}{{7}{2020}{{Mildenhall et al.}}{{}}}
+\bibcite{mucsanyi2024}{{8}{2024}{{Mucs\'anyi et al.}}{{}}}
+\bibcite{nix1994}{{9}{1994}{{Nix and Weigend}}{{}}}
+\bibcite{rahimi2007}{{10}{2007}{{Rahimi and Recht}}{{}}}
+\bibcite{seitzer2022}{{11}{2022}{{Seitzer et al.}}{{}}}
+\bibcite{sitzmann2020}{{12}{2020}{{Sitzmann et al.}}{{}}}
+\bibcite{tancik2020}{{13}{2020}{{Tancik et al.}}{{}}}
+\bibcite{valdenegro2022}{{14}{2022}{{Valdenegro-Toro and Saromo Mori}}{{}}}
+\bibcite{vovk2005}{{15}{2005}{{Vovk et al.}}{{}}}
+\gdef \@abspage@last{9}

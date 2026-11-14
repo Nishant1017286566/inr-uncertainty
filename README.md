@@ -21,15 +21,6 @@ They do not.
 The practical consequence, in one line: **report the total, and report `train_rmse/σ`
 beside any aleatoric number — or do not report one.**
 
-## Paper
-
-A 9-page write-up of all three studies is in [`paper/`](paper): the compiled
-[preprint PDF](paper/residual-law-preprint.pdf), LaTeX source for both the arXiv and the
-anonymised TMLR builds, and a [submission guide](paper/SUBMISSION_GUIDE.md). Every statistic
-in it is reproduced by the scripts in this repository.
-
----
-
 ## The three studies, in the order they should be read
 
 ### [Study 1 — the sweeps](study-1-sweeps)
@@ -116,10 +107,7 @@ python3 analyse.py && python3 make_figures.py     # regenerates every number and
 
 ---
 
-**Nishant Dave** — MSc Data & Artificial Intelligence, CentraleSupélec / Université
-Paris-Saclay; B.Tech, VIT. Working on speech and audio machine learning, with a particular
-interest in whether the evaluations we trust actually measure what they claim.
+*Author and affiliation withheld for double-anonymous review.*
 
-These studies are self-directed and unfunded, run on a laptop GPU and a CPU box. MIT
-licensed — reuse, rerun and contradict them freely. Corrections are welcome and will be
-recorded rather than quietly folded in.
+This mirror accompanies a paper under review. It holds the code, the pre-registrations and
+the completed grids, so every number in that paper can be recomputed. MIT licensed.
